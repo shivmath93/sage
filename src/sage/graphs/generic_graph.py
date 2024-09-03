@@ -20642,7 +20642,7 @@ class GenericGraph(GenericGraph_pyx):
     def layout_forest(self, tree_orientation='down', forest_roots=None,
                       **options):
         """
-        Return an ordered forest layout for this graph.
+        Return an ordered forest layout for this tree.
 
         The function relies on :meth:`~GenericGraph.layout_tree` to deal with
         each connected component.
